@@ -124,7 +124,7 @@ public class ParetoFront {
         /**
          * Returns a copy of all the tuples currently stored in this builder.
          */
-        public long[] getAll() {
+        private long[] getAll() {
             return Arrays.copyOf(tabBuilder, tabBuilder.length);
         }
 
